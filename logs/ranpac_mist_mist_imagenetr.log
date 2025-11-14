@@ -1,0 +1,399 @@
+2025-11-14 15:16:55,672 [trainer.py] => config: exps/ranpac_mist/imagenetr_ranpac_mist.json
+2025-11-14 15:16:55,672 [trainer.py] => prefix: exp
+2025-11-14 15:16:55,672 [trainer.py] => dataset: imagenetr
+2025-11-14 15:16:55,672 [trainer.py] => shuffle: True
+2025-11-14 15:16:55,672 [trainer.py] => init_cls: 20
+2025-11-14 15:16:55,672 [trainer.py] => increment: 20
+2025-11-14 15:16:55,672 [trainer.py] => model_name: ranpac_mist
+2025-11-14 15:16:55,672 [trainer.py] => convnet_type: pretrained_vit_b16_224_in21k
+2025-11-14 15:16:55,672 [trainer.py] => weight_decay: 0.0005
+2025-11-14 15:16:55,672 [trainer.py] => optimizer: sgd
+2025-11-14 15:16:55,672 [trainer.py] => device: [device(type='cuda', index=0)]
+2025-11-14 15:16:55,672 [trainer.py] => seed: 1993
+2025-11-14 15:16:55,672 [trainer.py] => batch_size: 56
+2025-11-14 15:16:55,672 [trainer.py] => spr: mist
+2025-11-14 15:16:55,672 [trainer.py] => select_rate: 0.1
+2025-11-14 15:16:55,672 [trainer.py] => drop_rate: 0.9
+2025-11-14 15:16:55,672 [trainer.py] => mi_epochs: 20
+2025-11-14 15:16:55,672 [trainer.py] => use_RP: True
+2025-11-14 15:16:55,672 [trainer.py] => M: 10000
+2025-11-14 15:18:02,441 [trainer.py] => config: exps/ranpac_mist/imagenetr_ranpac_mist.json
+2025-11-14 15:18:02,441 [trainer.py] => prefix: exp
+2025-11-14 15:18:02,441 [trainer.py] => dataset: imagenetr
+2025-11-14 15:18:02,441 [trainer.py] => shuffle: True
+2025-11-14 15:18:02,441 [trainer.py] => init_cls: 20
+2025-11-14 15:18:02,441 [trainer.py] => increment: 20
+2025-11-14 15:18:02,441 [trainer.py] => model_name: ranpac_mist
+2025-11-14 15:18:02,441 [trainer.py] => convnet_type: pretrained_vit_b16_224_in21k
+2025-11-14 15:18:02,441 [trainer.py] => weight_decay: 0.0005
+2025-11-14 15:18:02,441 [trainer.py] => optimizer: sgd
+2025-11-14 15:18:02,441 [trainer.py] => device: [device(type='cuda', index=0)]
+2025-11-14 15:18:02,441 [trainer.py] => seed: 1993
+2025-11-14 15:18:02,441 [trainer.py] => batch_size: 56
+2025-11-14 15:18:02,441 [trainer.py] => spr: mist
+2025-11-14 15:18:02,441 [trainer.py] => select_rate: 0.1
+2025-11-14 15:18:02,441 [trainer.py] => drop_rate: 0.9
+2025-11-14 15:18:02,441 [trainer.py] => mi_epochs: 20
+2025-11-14 15:18:02,441 [trainer.py] => use_RP: True
+2025-11-14 15:18:02,441 [trainer.py] => M: 10000
+2025-11-14 15:18:02,494 [data_manager.py] => [168, 136, 51, 9, 183, 101, 171, 99, 42, 159, 191, 70, 16, 188, 27, 10, 175, 26, 68, 187, 98, 6, 85, 35, 112, 43, 100, 0, 103, 181, 88, 59, 4, 2, 116, 174, 94, 80, 106, 1, 147, 17, 141, 131, 72, 23, 173, 54, 197, 118, 87, 32, 79, 104, 91, 19, 135, 107, 178, 36, 11, 199, 142, 8, 122, 3, 28, 57, 153, 172, 190, 56, 49, 44, 97, 62, 151, 169, 194, 55, 192, 12, 189, 78, 66, 180, 15, 137, 109, 134, 92, 119, 126, 52, 170, 40, 148, 65, 144, 64, 138, 45, 77, 89, 154, 90, 71, 193, 74, 30, 113, 143, 96, 84, 67, 50, 186, 156, 69, 21, 18, 111, 108, 58, 125, 157, 150, 110, 182, 129, 166, 83, 81, 60, 13, 165, 14, 176, 63, 117, 5, 22, 145, 121, 38, 41, 82, 127, 114, 20, 31, 53, 37, 163, 196, 130, 152, 162, 86, 76, 24, 34, 184, 149, 33, 128, 198, 155, 146, 167, 139, 120, 140, 102, 47, 25, 158, 123, 46, 164, 61, 7, 115, 75, 133, 160, 105, 132, 179, 124, 48, 73, 93, 39, 95, 195, 29, 177, 185, 161]
+2025-11-14 15:18:05,874 [trainer.py] => All params: 85897088
+2025-11-14 15:18:05,875 [trainer.py] => Trainable params: 85897088
+2025-11-14 15:18:05,875 [ranpac_mist.py] => Starting CIL Task 1
+2025-11-14 15:18:05,875 [ranpac_mist.py] => Learning on classes 0-19
+2025-11-14 15:18:27,881 [ranpac_mist.py] => Task 0, Epoch 1/20 => Loss 18.083
+2025-11-14 15:18:49,791 [ranpac_mist.py] => Task 0, Epoch 2/20 => miLoss 14.762
+2025-11-14 15:19:11,748 [ranpac_mist.py] => Task 0, Epoch 3/20 => miLoss 13.367
+2025-11-14 15:19:33,657 [ranpac_mist.py] => Task 0, Epoch 4/20 => miLoss 13.040
+2025-11-14 15:19:55,585 [ranpac_mist.py] => Task 0, Epoch 5/20 => miLoss 12.799
+2025-11-14 15:20:17,537 [ranpac_mist.py] => Task 0, Epoch 6/20 => miLoss 12.749
+2025-11-14 15:20:39,639 [ranpac_mist.py] => Task 0, Epoch 7/20 => miLoss 12.565
+2025-11-14 15:21:01,653 [ranpac_mist.py] => Task 0, Epoch 8/20 => miLoss 12.418
+2025-11-14 15:21:23,654 [ranpac_mist.py] => Task 0, Epoch 9/20 => miLoss 12.464
+2025-11-14 15:21:45,722 [ranpac_mist.py] => Task 0, Epoch 10/20 => miLoss 12.347
+2025-11-14 15:22:07,805 [ranpac_mist.py] => Task 0, Epoch 11/20 => miLoss 12.256
+2025-11-14 15:22:29,903 [ranpac_mist.py] => Task 0, Epoch 12/20 => miLoss 12.363
+2025-11-14 15:22:52,036 [ranpac_mist.py] => Task 0, Epoch 13/20 => miLoss 12.269
+2025-11-14 15:23:14,108 [ranpac_mist.py] => Task 0, Epoch 14/20 => miLoss 12.158
+2025-11-14 15:23:36,297 [ranpac_mist.py] => Task 0, Epoch 15/20 => miLoss 12.246
+2025-11-14 15:23:58,405 [ranpac_mist.py] => Task 0, Epoch 16/20 => miLoss 12.059
+2025-11-14 15:24:20,465 [ranpac_mist.py] => Task 0, Epoch 17/20 => miLoss 12.098
+2025-11-14 15:24:42,665 [ranpac_mist.py] => Task 0, Epoch 18/20 => miLoss 12.177
+2025-11-14 15:25:04,743 [ranpac_mist.py] => Task 0, Epoch 19/20 => miLoss 12.167
+2025-11-14 15:25:26,816 [ranpac_mist.py] => Task 0, Epoch 20/20 => miLoss 12.088
+2025-11-14 15:25:49,615 [ranpac_mist.py] => Optimal lambda: 1000000.0
+2025-11-14 15:25:50,475 [ranpac_mist.py] => 86,112,450 total parameters.
+2025-11-14 15:25:50,475 [ranpac_mist.py] => 86,112,450 training parameters.
+2025-11-14 15:25:51,945 [trainer.py] => No NME accuracy.
+2025-11-14 15:25:51,945 [trainer.py] => CNN: {'total': 92.89, '00-09': 91.48, '10-19': 94.09, 'old': 0, 'new': 92.89}
+2025-11-14 15:25:51,945 [trainer.py] => Att_curve: [92.89]
+2025-11-14 15:25:51,945 [trainer.py] => CNN top1 curve: [92.89]
+2025-11-14 15:25:51,945 [trainer.py] => CNN top5 curve: [98.4]
+
+2025-11-14 15:25:51,945 [trainer.py] => Average Accuracy (CNN): 92.89
+2025-11-14 15:25:51,945 [trainer.py] => Last Average Accuracy: 92.89
+2025-11-14 15:25:51,946 [trainer.py] => A_tt: 92.89
+2025-11-14 15:25:51,946 [trainer.py] => All params: 86112450
+2025-11-14 15:25:51,946 [trainer.py] => Trainable params: 86112450
+2025-11-14 15:25:51,947 [ranpac_mist.py] => Starting CIL Task 2
+2025-11-14 15:25:51,947 [ranpac_mist.py] => Learning on classes 20-39
+2025-11-14 15:26:11,371 [ranpac_mist.py] => Task 1, Epoch 1/20 => Loss 13.739
+2025-11-14 15:26:31,568 [ranpac_mist.py] => Task 1, Epoch 2/20 => miLoss 13.345
+2025-11-14 15:26:51,768 [ranpac_mist.py] => Task 1, Epoch 3/20 => miLoss 12.945
+2025-11-14 15:27:11,991 [ranpac_mist.py] => Task 1, Epoch 4/20 => miLoss 12.651
+2025-11-14 15:27:32,230 [ranpac_mist.py] => Task 1, Epoch 5/20 => miLoss 12.532
+2025-11-14 15:27:52,446 [ranpac_mist.py] => Task 1, Epoch 6/20 => miLoss 12.459
+2025-11-14 15:28:12,763 [ranpac_mist.py] => Task 1, Epoch 7/20 => miLoss 12.421
+2025-11-14 15:28:33,008 [ranpac_mist.py] => Task 1, Epoch 8/20 => miLoss 12.333
+2025-11-14 15:28:53,329 [ranpac_mist.py] => Task 1, Epoch 9/20 => miLoss 12.231
+2025-11-14 15:29:13,587 [ranpac_mist.py] => Task 1, Epoch 10/20 => miLoss 12.333
+2025-11-14 15:29:33,921 [ranpac_mist.py] => Task 1, Epoch 11/20 => miLoss 12.315
+2025-11-14 15:29:54,170 [ranpac_mist.py] => Task 1, Epoch 12/20 => miLoss 12.146
+2025-11-14 15:30:14,511 [ranpac_mist.py] => Task 1, Epoch 13/20 => miLoss 12.122
+2025-11-14 15:30:34,876 [ranpac_mist.py] => Task 1, Epoch 14/20 => miLoss 12.095
+2025-11-14 15:30:55,169 [ranpac_mist.py] => Task 1, Epoch 15/20 => miLoss 12.122
+2025-11-14 15:31:15,418 [ranpac_mist.py] => Task 1, Epoch 16/20 => miLoss 12.153
+2025-11-14 15:31:35,736 [ranpac_mist.py] => Task 1, Epoch 17/20 => miLoss 12.022
+2025-11-14 15:31:56,048 [ranpac_mist.py] => Task 1, Epoch 18/20 => miLoss 12.018
+2025-11-14 15:32:16,332 [ranpac_mist.py] => Task 1, Epoch 19/20 => miLoss 11.925
+2025-11-14 15:32:36,581 [ranpac_mist.py] => Task 1, Epoch 20/20 => miLoss 12.099
+2025-11-14 15:32:58,932 [ranpac_mist.py] => Optimal lambda: 1000000.0
+2025-11-14 15:33:00,208 [ranpac_mist.py] => 86,327,810 total parameters.
+2025-11-14 15:33:00,208 [ranpac_mist.py] => 86,327,810 training parameters.
+2025-11-14 15:33:02,462 [trainer.py] => No NME accuracy.
+2025-11-14 15:33:02,462 [trainer.py] => CNN: {'total': 90.23, '00-09': 86.75, '10-19': 90.86, '20-29': 90.33, '30-39': 92.77, 'old': 88.97, 'new': 91.61}
+2025-11-14 15:33:02,462 [trainer.py] => Att_curve: [92.89, 91.61]
+2025-11-14 15:33:02,463 [trainer.py] => CNN top1 curve: [92.89, 90.23]
+2025-11-14 15:33:02,463 [trainer.py] => CNN top5 curve: [98.4, 97.5]
+
+2025-11-14 15:33:02,463 [trainer.py] => Average Accuracy (CNN): 91.56
+2025-11-14 15:33:02,463 [trainer.py] => Last Average Accuracy: 90.23
+2025-11-14 15:33:02,463 [trainer.py] => A_tt: 92.25
+2025-11-14 15:33:02,463 [trainer.py] => All params: 86327810
+2025-11-14 15:33:02,463 [trainer.py] => Trainable params: 86327810
+2025-11-14 15:33:02,464 [ranpac_mist.py] => Starting CIL Task 3
+2025-11-14 15:33:02,464 [ranpac_mist.py] => Learning on classes 40-59
+2025-11-14 15:33:20,210 [ranpac_mist.py] => Task 2, Epoch 1/20 => Loss 13.574
+2025-11-14 15:33:38,732 [ranpac_mist.py] => Task 2, Epoch 2/20 => miLoss 13.365
+2025-11-14 15:33:57,300 [ranpac_mist.py] => Task 2, Epoch 3/20 => miLoss 13.014
+2025-11-14 15:34:15,838 [ranpac_mist.py] => Task 2, Epoch 4/20 => miLoss 12.872
+2025-11-14 15:34:34,483 [ranpac_mist.py] => Task 2, Epoch 5/20 => miLoss 12.800
+2025-11-14 15:34:53,047 [ranpac_mist.py] => Task 2, Epoch 6/20 => miLoss 12.673
+2025-11-14 15:35:11,659 [ranpac_mist.py] => Task 2, Epoch 7/20 => miLoss 12.736
+2025-11-14 15:35:30,212 [ranpac_mist.py] => Task 2, Epoch 8/20 => miLoss 12.564
+2025-11-14 15:35:48,799 [ranpac_mist.py] => Task 2, Epoch 9/20 => miLoss 12.506
+2025-11-14 15:36:07,393 [ranpac_mist.py] => Task 2, Epoch 10/20 => miLoss 12.459
+2025-11-14 15:36:26,002 [ranpac_mist.py] => Task 2, Epoch 11/20 => miLoss 12.312
+2025-11-14 15:36:44,559 [ranpac_mist.py] => Task 2, Epoch 12/20 => miLoss 12.341
+2025-11-14 15:37:03,158 [ranpac_mist.py] => Task 2, Epoch 13/20 => miLoss 12.323
+2025-11-14 15:37:21,777 [ranpac_mist.py] => Task 2, Epoch 14/20 => miLoss 12.339
+2025-11-14 15:37:40,406 [ranpac_mist.py] => Task 2, Epoch 15/20 => miLoss 12.340
+2025-11-14 15:37:58,966 [ranpac_mist.py] => Task 2, Epoch 16/20 => miLoss 12.259
+2025-11-14 15:38:17,532 [ranpac_mist.py] => Task 2, Epoch 17/20 => miLoss 12.187
+2025-11-14 15:38:36,103 [ranpac_mist.py] => Task 2, Epoch 18/20 => miLoss 12.241
+2025-11-14 15:38:54,913 [ranpac_mist.py] => Task 2, Epoch 19/20 => miLoss 12.174
+2025-11-14 15:39:13,640 [ranpac_mist.py] => Task 2, Epoch 20/20 => miLoss 12.227
+2025-11-14 15:39:36,206 [ranpac_mist.py] => Optimal lambda: 1000000.0
+2025-11-14 15:39:37,279 [ranpac_mist.py] => 86,543,170 total parameters.
+2025-11-14 15:39:37,280 [ranpac_mist.py] => 86,543,170 training parameters.
+2025-11-14 15:39:40,391 [trainer.py] => No NME accuracy.
+2025-11-14 15:39:40,391 [trainer.py] => CNN: {'total': 87.49, '00-09': 84.23, '10-19': 88.17, '20-29': 86.33, '30-39': 87.95, '40-49': 90.73, '50-59': 87.5, 'old': 86.75, 'new': 89.11}
+2025-11-14 15:39:40,391 [trainer.py] => Att_curve: [92.89, 91.61, 89.11]
+2025-11-14 15:39:40,391 [trainer.py] => CNN top1 curve: [92.89, 90.23, 87.49]
+2025-11-14 15:39:40,391 [trainer.py] => CNN top5 curve: [98.4, 97.5, 96.68]
+
+2025-11-14 15:39:40,391 [trainer.py] => Average Accuracy (CNN): 90.20333333333333
+2025-11-14 15:39:40,391 [trainer.py] => Last Average Accuracy: 87.49
+2025-11-14 15:39:40,392 [trainer.py] => A_tt: 91.20333333333333
+2025-11-14 15:39:40,392 [trainer.py] => All params: 86543170
+2025-11-14 15:39:40,393 [trainer.py] => Trainable params: 86543170
+2025-11-14 15:39:40,394 [ranpac_mist.py] => Starting CIL Task 4
+2025-11-14 15:39:40,394 [ranpac_mist.py] => Learning on classes 60-79
+2025-11-14 15:39:57,803 [ranpac_mist.py] => Task 3, Epoch 1/20 => Loss 13.529
+2025-11-14 15:40:15,943 [ranpac_mist.py] => Task 3, Epoch 2/20 => miLoss 13.308
+2025-11-14 15:40:34,096 [ranpac_mist.py] => Task 3, Epoch 3/20 => miLoss 12.943
+2025-11-14 15:40:52,279 [ranpac_mist.py] => Task 3, Epoch 4/20 => miLoss 12.801
+2025-11-14 15:41:10,415 [ranpac_mist.py] => Task 3, Epoch 5/20 => miLoss 12.647
+2025-11-14 15:41:28,571 [ranpac_mist.py] => Task 3, Epoch 6/20 => miLoss 12.609
+2025-11-14 15:41:46,788 [ranpac_mist.py] => Task 3, Epoch 7/20 => miLoss 12.540
+2025-11-14 15:42:05,005 [ranpac_mist.py] => Task 3, Epoch 8/20 => miLoss 12.494
+2025-11-14 15:42:23,209 [ranpac_mist.py] => Task 3, Epoch 9/20 => miLoss 12.415
+2025-11-14 15:42:41,395 [ranpac_mist.py] => Task 3, Epoch 10/20 => miLoss 12.367
+2025-11-14 15:42:59,644 [ranpac_mist.py] => Task 3, Epoch 11/20 => miLoss 12.452
+2025-11-14 15:43:17,885 [ranpac_mist.py] => Task 3, Epoch 12/20 => miLoss 12.267
+2025-11-14 15:43:36,163 [ranpac_mist.py] => Task 3, Epoch 13/20 => miLoss 12.258
+2025-11-14 15:43:54,400 [ranpac_mist.py] => Task 3, Epoch 14/20 => miLoss 12.193
+2025-11-14 15:44:12,695 [ranpac_mist.py] => Task 3, Epoch 15/20 => miLoss 12.238
+2025-11-14 15:44:30,905 [ranpac_mist.py] => Task 3, Epoch 16/20 => miLoss 12.223
+2025-11-14 15:44:49,116 [ranpac_mist.py] => Task 3, Epoch 17/20 => miLoss 12.120
+2025-11-14 15:45:07,407 [ranpac_mist.py] => Task 3, Epoch 18/20 => miLoss 12.201
+2025-11-14 15:45:25,693 [ranpac_mist.py] => Task 3, Epoch 19/20 => miLoss 12.149
+2025-11-14 15:45:44,030 [ranpac_mist.py] => Task 3, Epoch 20/20 => miLoss 12.134
+2025-11-14 15:46:05,647 [ranpac_mist.py] => Optimal lambda: 1000000.0
+2025-11-14 15:46:06,611 [ranpac_mist.py] => 86,758,530 total parameters.
+2025-11-14 15:46:06,611 [ranpac_mist.py] => 86,758,530 training parameters.
+2025-11-14 15:46:10,490 [trainer.py] => No NME accuracy.
+2025-11-14 15:46:10,490 [trainer.py] => CNN: {'total': 86.51, '00-09': 83.28, '10-19': 88.17, '20-29': 85.33, '30-39': 88.25, '40-49': 87.09, '50-59': 85.2, '60-69': 87.25, '70-79': 87.18, 'old': 86.3, 'new': 87.22}
+2025-11-14 15:46:10,490 [trainer.py] => Att_curve: [92.89, 91.61, 89.11, 87.22]
+2025-11-14 15:46:10,490 [trainer.py] => CNN top1 curve: [92.89, 90.23, 87.49, 86.51]
+2025-11-14 15:46:10,490 [trainer.py] => CNN top5 curve: [98.4, 97.5, 96.68, 95.68]
+
+2025-11-14 15:46:10,490 [trainer.py] => Average Accuracy (CNN): 89.28
+2025-11-14 15:46:10,490 [trainer.py] => Last Average Accuracy: 86.51
+2025-11-14 15:46:10,490 [trainer.py] => A_tt: 90.20750000000001
+2025-11-14 15:46:10,491 [trainer.py] => All params: 86758530
+2025-11-14 15:46:10,491 [trainer.py] => Trainable params: 86758530
+2025-11-14 15:46:10,492 [ranpac_mist.py] => Starting CIL Task 5
+2025-11-14 15:46:10,492 [ranpac_mist.py] => Learning on classes 80-99
+2025-11-14 15:46:27,060 [ranpac_mist.py] => Task 4, Epoch 1/20 => Loss 13.637
+2025-11-14 15:46:44,318 [ranpac_mist.py] => Task 4, Epoch 2/20 => miLoss 13.411
+2025-11-14 15:47:01,563 [ranpac_mist.py] => Task 4, Epoch 3/20 => miLoss 13.077
+2025-11-14 15:47:18,826 [ranpac_mist.py] => Task 4, Epoch 4/20 => miLoss 12.958
+2025-11-14 15:47:36,081 [ranpac_mist.py] => Task 4, Epoch 5/20 => miLoss 12.862
+2025-11-14 15:47:53,345 [ranpac_mist.py] => Task 4, Epoch 6/20 => miLoss 12.705
+2025-11-14 15:48:10,644 [ranpac_mist.py] => Task 4, Epoch 7/20 => miLoss 12.627
+2025-11-14 15:48:27,939 [ranpac_mist.py] => Task 4, Epoch 8/20 => miLoss 12.562
+2025-11-14 15:48:45,275 [ranpac_mist.py] => Task 4, Epoch 9/20 => miLoss 12.478
+2025-11-14 15:49:02,609 [ranpac_mist.py] => Task 4, Epoch 10/20 => miLoss 12.564
+2025-11-14 15:49:19,893 [ranpac_mist.py] => Task 4, Epoch 11/20 => miLoss 12.538
+2025-11-14 15:49:37,202 [ranpac_mist.py] => Task 4, Epoch 12/20 => miLoss 12.396
+2025-11-14 15:49:54,566 [ranpac_mist.py] => Task 4, Epoch 13/20 => miLoss 12.420
+2025-11-14 15:50:11,851 [ranpac_mist.py] => Task 4, Epoch 14/20 => miLoss 12.453
+2025-11-14 15:50:29,284 [ranpac_mist.py] => Task 4, Epoch 15/20 => miLoss 12.397
+2025-11-14 15:50:46,569 [ranpac_mist.py] => Task 4, Epoch 16/20 => miLoss 12.332
+2025-11-14 15:51:03,896 [ranpac_mist.py] => Task 4, Epoch 17/20 => miLoss 12.279
+2025-11-14 15:51:21,179 [ranpac_mist.py] => Task 4, Epoch 18/20 => miLoss 12.267
+2025-11-14 15:51:38,509 [ranpac_mist.py] => Task 4, Epoch 19/20 => miLoss 12.197
+2025-11-14 15:51:55,916 [ranpac_mist.py] => Task 4, Epoch 20/20 => miLoss 12.293
+2025-11-14 15:52:17,599 [ranpac_mist.py] => Optimal lambda: 1000000.0
+2025-11-14 15:52:18,684 [ranpac_mist.py] => 86,973,890 total parameters.
+2025-11-14 15:52:18,684 [ranpac_mist.py] => 86,973,890 training parameters.
+2025-11-14 15:52:23,326 [trainer.py] => No NME accuracy.
+2025-11-14 15:52:23,326 [trainer.py] => CNN: {'total': 83.89, '00-09': 81.07, '10-19': 84.68, '20-29': 84.33, '30-39': 86.45, '40-49': 82.45, '50-59': 82.89, '60-69': 82.55, '70-79': 85.35, '80-89': 86.77, '90-99': 80.79, 'old': 83.75, 'new': 84.6}
+2025-11-14 15:52:23,326 [trainer.py] => Att_curve: [92.89, 91.61, 89.11, 87.22, 84.6]
+2025-11-14 15:52:23,326 [trainer.py] => CNN top1 curve: [92.89, 90.23, 87.49, 86.51, 83.89]
+2025-11-14 15:52:23,326 [trainer.py] => CNN top5 curve: [98.4, 97.5, 96.68, 95.68, 94.57]
+
+2025-11-14 15:52:23,326 [trainer.py] => Average Accuracy (CNN): 88.202
+2025-11-14 15:52:23,326 [trainer.py] => Last Average Accuracy: 83.89
+2025-11-14 15:52:23,326 [trainer.py] => A_tt: 89.08600000000001
+2025-11-14 15:52:23,327 [trainer.py] => All params: 86973890
+2025-11-14 15:52:23,327 [trainer.py] => Trainable params: 86973890
+2025-11-14 15:52:23,328 [ranpac_mist.py] => Starting CIL Task 6
+2025-11-14 15:52:23,328 [ranpac_mist.py] => Learning on classes 100-119
+2025-11-14 15:52:43,650 [ranpac_mist.py] => Task 5, Epoch 1/20 => Loss 13.301
+2025-11-14 15:53:04,687 [ranpac_mist.py] => Task 5, Epoch 2/20 => miLoss 13.131
+2025-11-14 15:53:25,907 [ranpac_mist.py] => Task 5, Epoch 3/20 => miLoss 12.767
+2025-11-14 15:53:47,108 [ranpac_mist.py] => Task 5, Epoch 4/20 => miLoss 12.697
+2025-11-14 15:54:08,234 [ranpac_mist.py] => Task 5, Epoch 5/20 => miLoss 12.593
+2025-11-14 15:54:29,340 [ranpac_mist.py] => Task 5, Epoch 6/20 => miLoss 12.555
+2025-11-14 15:54:50,433 [ranpac_mist.py] => Task 5, Epoch 7/20 => miLoss 12.425
+2025-11-14 15:55:11,541 [ranpac_mist.py] => Task 5, Epoch 8/20 => miLoss 12.422
+2025-11-14 15:55:32,624 [ranpac_mist.py] => Task 5, Epoch 9/20 => miLoss 12.286
+2025-11-14 15:55:53,773 [ranpac_mist.py] => Task 5, Epoch 10/20 => miLoss 12.320
+2025-11-14 15:56:14,884 [ranpac_mist.py] => Task 5, Epoch 11/20 => miLoss 12.272
+2025-11-14 15:56:36,008 [ranpac_mist.py] => Task 5, Epoch 12/20 => miLoss 12.210
+2025-11-14 15:56:57,096 [ranpac_mist.py] => Task 5, Epoch 13/20 => miLoss 12.215
+2025-11-14 15:57:18,195 [ranpac_mist.py] => Task 5, Epoch 14/20 => miLoss 12.195
+2025-11-14 15:57:39,290 [ranpac_mist.py] => Task 5, Epoch 15/20 => miLoss 12.132
+2025-11-14 15:58:00,396 [ranpac_mist.py] => Task 5, Epoch 16/20 => miLoss 12.161
+2025-11-14 15:58:21,519 [ranpac_mist.py] => Task 5, Epoch 17/20 => miLoss 12.215
+2025-11-14 15:58:42,748 [ranpac_mist.py] => Task 5, Epoch 18/20 => miLoss 12.094
+2025-11-14 15:59:03,928 [ranpac_mist.py] => Task 5, Epoch 19/20 => miLoss 12.111
+2025-11-14 15:59:25,151 [ranpac_mist.py] => Task 5, Epoch 20/20 => miLoss 12.038
+2025-11-14 15:59:47,008 [ranpac_mist.py] => Optimal lambda: 1000000.0
+2025-11-14 15:59:47,986 [ranpac_mist.py] => 87,189,250 total parameters.
+2025-11-14 15:59:47,987 [ranpac_mist.py] => 87,189,250 training parameters.
+2025-11-14 15:59:53,554 [trainer.py] => No NME accuracy.
+2025-11-14 15:59:53,554 [trainer.py] => CNN: {'total': 82.83, '00-09': 77.92, '10-19': 81.18, '20-29': 81.33, '30-39': 85.24, '40-49': 81.46, '50-59': 81.91, '60-69': 79.19, '70-79': 79.49, '80-89': 83.23, '90-99': 78.53, '100-109': 90.49, '110-119': 90.69, 'old': 81.11, 'new': 90.61}
+2025-11-14 15:59:53,554 [trainer.py] => Att_curve: [92.89, 91.61, 89.11, 87.22, 84.6, 90.61]
+2025-11-14 15:59:53,554 [trainer.py] => CNN top1 curve: [92.89, 90.23, 87.49, 86.51, 83.89, 82.83]
+2025-11-14 15:59:53,554 [trainer.py] => CNN top5 curve: [98.4, 97.5, 96.68, 95.68, 94.57, 93.99]
+
+2025-11-14 15:59:53,554 [trainer.py] => Average Accuracy (CNN): 87.30666666666667
+2025-11-14 15:59:53,554 [trainer.py] => Last Average Accuracy: 82.83
+2025-11-14 15:59:53,554 [trainer.py] => A_tt: 89.34000000000002
+2025-11-14 15:59:53,555 [trainer.py] => All params: 87189250
+2025-11-14 15:59:53,555 [trainer.py] => Trainable params: 87189250
+2025-11-14 15:59:53,556 [ranpac_mist.py] => Starting CIL Task 7
+2025-11-14 15:59:53,556 [ranpac_mist.py] => Learning on classes 120-139
+2025-11-14 16:00:09,757 [ranpac_mist.py] => Task 6, Epoch 1/20 => Loss 13.384
+2025-11-14 16:00:26,644 [ranpac_mist.py] => Task 6, Epoch 2/20 => miLoss 13.149
+2025-11-14 16:00:43,594 [ranpac_mist.py] => Task 6, Epoch 3/20 => miLoss 12.793
+2025-11-14 16:01:00,568 [ranpac_mist.py] => Task 6, Epoch 4/20 => miLoss 12.740
+2025-11-14 16:01:17,566 [ranpac_mist.py] => Task 6, Epoch 5/20 => miLoss 12.613
+2025-11-14 16:01:34,516 [ranpac_mist.py] => Task 6, Epoch 6/20 => miLoss 12.481
+2025-11-14 16:01:51,426 [ranpac_mist.py] => Task 6, Epoch 7/20 => miLoss 12.385
+2025-11-14 16:02:08,403 [ranpac_mist.py] => Task 6, Epoch 8/20 => miLoss 12.302
+2025-11-14 16:02:25,291 [ranpac_mist.py] => Task 6, Epoch 9/20 => miLoss 12.269
+2025-11-14 16:02:42,235 [ranpac_mist.py] => Task 6, Epoch 10/20 => miLoss 12.212
+2025-11-14 16:02:59,221 [ranpac_mist.py] => Task 6, Epoch 11/20 => miLoss 12.239
+2025-11-14 16:03:16,238 [ranpac_mist.py] => Task 6, Epoch 12/20 => miLoss 12.240
+2025-11-14 16:03:33,135 [ranpac_mist.py] => Task 6, Epoch 13/20 => miLoss 12.269
+2025-11-14 16:03:50,044 [ranpac_mist.py] => Task 6, Epoch 14/20 => miLoss 12.207
+2025-11-14 16:04:06,994 [ranpac_mist.py] => Task 6, Epoch 15/20 => miLoss 12.116
+2025-11-14 16:04:23,888 [ranpac_mist.py] => Task 6, Epoch 16/20 => miLoss 12.053
+2025-11-14 16:04:40,798 [ranpac_mist.py] => Task 6, Epoch 17/20 => miLoss 12.024
+2025-11-14 16:04:57,725 [ranpac_mist.py] => Task 6, Epoch 18/20 => miLoss 12.063
+2025-11-14 16:05:14,608 [ranpac_mist.py] => Task 6, Epoch 19/20 => miLoss 12.060
+2025-11-14 16:05:31,570 [ranpac_mist.py] => Task 6, Epoch 20/20 => miLoss 11.999
+2025-11-14 16:05:53,015 [ranpac_mist.py] => Optimal lambda: 1000000.0
+2025-11-14 16:05:54,104 [ranpac_mist.py] => 87,404,610 total parameters.
+2025-11-14 16:05:54,105 [ranpac_mist.py] => 87,404,610 training parameters.
+2025-11-14 16:06:00,373 [trainer.py] => No NME accuracy.
+2025-11-14 16:06:00,373 [trainer.py] => CNN: {'total': 82.65, '00-09': 78.55, '10-19': 79.57, '20-29': 80.33, '30-39': 83.43, '40-49': 80.13, '50-59': 81.91, '60-69': 80.54, '70-79': 80.22, '80-89': 83.87, '90-99': 76.84, '100-109': 89.44, '110-119': 89.1, '120-129': 84.13, '130-139': 86.24, 'old': 82.25, 'new': 85.24}
+2025-11-14 16:06:00,373 [trainer.py] => Att_curve: [92.89, 91.61, 89.11, 87.22, 84.6, 90.61, 85.24]
+2025-11-14 16:06:00,373 [trainer.py] => CNN top1 curve: [92.89, 90.23, 87.49, 86.51, 83.89, 82.83, 82.65]
+2025-11-14 16:06:00,373 [trainer.py] => CNN top5 curve: [98.4, 97.5, 96.68, 95.68, 94.57, 93.99, 93.28]
+
+2025-11-14 16:06:00,373 [trainer.py] => Average Accuracy (CNN): 86.64142857142858
+2025-11-14 16:06:00,373 [trainer.py] => Last Average Accuracy: 82.65
+2025-11-14 16:06:00,373 [trainer.py] => A_tt: 88.75428571428573
+2025-11-14 16:06:00,373 [trainer.py] => All params: 87404610
+2025-11-14 16:06:00,373 [trainer.py] => Trainable params: 87404610
+2025-11-14 16:06:00,375 [ranpac_mist.py] => Starting CIL Task 8
+2025-11-14 16:06:00,375 [ranpac_mist.py] => Learning on classes 140-159
+2025-11-14 16:06:21,694 [ranpac_mist.py] => Task 7, Epoch 1/20 => Loss 13.265
+2025-11-14 16:06:44,029 [ranpac_mist.py] => Task 7, Epoch 2/20 => miLoss 13.138
+2025-11-14 16:07:06,389 [ranpac_mist.py] => Task 7, Epoch 3/20 => miLoss 12.851
+2025-11-14 16:07:28,635 [ranpac_mist.py] => Task 7, Epoch 4/20 => miLoss 12.754
+2025-11-14 16:07:51,010 [ranpac_mist.py] => Task 7, Epoch 5/20 => miLoss 12.642
+2025-11-14 16:08:13,358 [ranpac_mist.py] => Task 7, Epoch 6/20 => miLoss 12.499
+2025-11-14 16:08:35,726 [ranpac_mist.py] => Task 7, Epoch 7/20 => miLoss 12.536
+2025-11-14 16:08:58,028 [ranpac_mist.py] => Task 7, Epoch 8/20 => miLoss 12.356
+2025-11-14 16:09:20,402 [ranpac_mist.py] => Task 7, Epoch 9/20 => miLoss 12.271
+2025-11-14 16:09:42,656 [ranpac_mist.py] => Task 7, Epoch 10/20 => miLoss 12.281
+2025-11-14 16:10:05,046 [ranpac_mist.py] => Task 7, Epoch 11/20 => miLoss 12.216
+2025-11-14 16:10:27,384 [ranpac_mist.py] => Task 7, Epoch 12/20 => miLoss 12.238
+2025-11-14 16:10:49,800 [ranpac_mist.py] => Task 7, Epoch 13/20 => miLoss 12.218
+2025-11-14 16:11:12,092 [ranpac_mist.py] => Task 7, Epoch 14/20 => miLoss 12.280
+2025-11-14 16:11:34,362 [ranpac_mist.py] => Task 7, Epoch 15/20 => miLoss 12.274
+2025-11-14 16:11:56,639 [ranpac_mist.py] => Task 7, Epoch 16/20 => miLoss 12.229
+2025-11-14 16:12:18,948 [ranpac_mist.py] => Task 7, Epoch 17/20 => miLoss 12.208
+2025-11-14 16:12:41,248 [ranpac_mist.py] => Task 7, Epoch 18/20 => miLoss 12.157
+2025-11-14 16:13:03,659 [ranpac_mist.py] => Task 7, Epoch 19/20 => miLoss 12.277
+2025-11-14 16:13:25,990 [ranpac_mist.py] => Task 7, Epoch 20/20 => miLoss 12.180
+2025-11-14 16:13:50,148 [ranpac_mist.py] => Optimal lambda: 1000000.0
+2025-11-14 16:13:51,242 [ranpac_mist.py] => 87,619,970 total parameters.
+2025-11-14 16:13:51,242 [ranpac_mist.py] => 87,619,970 training parameters.
+2025-11-14 16:13:58,491 [trainer.py] => No NME accuracy.
+2025-11-14 16:13:58,491 [trainer.py] => CNN: {'total': 81.91, '00-09': 73.82, '10-19': 79.3, '20-29': 77.67, '30-39': 84.94, '40-49': 78.48, '50-59': 80.59, '60-69': 79.19, '70-79': 78.02, '80-89': 84.19, '90-99': 76.27, '100-109': 86.97, '110-119': 87.5, '120-129': 79.34, '130-139': 83.56, '140-149': 89.1, '150-159': 85.91, 'old': 80.94, 'new': 87.52}
+2025-11-14 16:13:58,491 [trainer.py] => Att_curve: [92.89, 91.61, 89.11, 87.22, 84.6, 90.61, 85.24, 87.52]
+2025-11-14 16:13:58,491 [trainer.py] => CNN top1 curve: [92.89, 90.23, 87.49, 86.51, 83.89, 82.83, 82.65, 81.91]
+2025-11-14 16:13:58,491 [trainer.py] => CNN top5 curve: [98.4, 97.5, 96.68, 95.68, 94.57, 93.99, 93.28, 93.12]
+
+2025-11-14 16:13:58,491 [trainer.py] => Average Accuracy (CNN): 86.05
+2025-11-14 16:13:58,491 [trainer.py] => Last Average Accuracy: 81.91
+2025-11-14 16:13:58,491 [trainer.py] => A_tt: 88.60000000000001
+2025-11-14 16:13:58,492 [trainer.py] => All params: 87619970
+2025-11-14 16:13:58,492 [trainer.py] => Trainable params: 87619970
+2025-11-14 16:13:58,493 [ranpac_mist.py] => Starting CIL Task 9
+2025-11-14 16:13:58,494 [ranpac_mist.py] => Learning on classes 160-179
+2025-11-14 16:14:13,480 [ranpac_mist.py] => Task 8, Epoch 1/20 => Loss 13.784
+2025-11-14 16:14:29,114 [ranpac_mist.py] => Task 8, Epoch 2/20 => miLoss 13.542
+2025-11-14 16:14:44,615 [ranpac_mist.py] => Task 8, Epoch 3/20 => miLoss 13.247
+2025-11-14 16:15:00,102 [ranpac_mist.py] => Task 8, Epoch 4/20 => miLoss 13.145
+2025-11-14 16:15:15,737 [ranpac_mist.py] => Task 8, Epoch 5/20 => miLoss 13.026
+2025-11-14 16:15:31,218 [ranpac_mist.py] => Task 8, Epoch 6/20 => miLoss 12.982
+2025-11-14 16:15:46,862 [ranpac_mist.py] => Task 8, Epoch 7/20 => miLoss 12.793
+2025-11-14 16:16:02,376 [ranpac_mist.py] => Task 8, Epoch 8/20 => miLoss 12.720
+2025-11-14 16:16:18,084 [ranpac_mist.py] => Task 8, Epoch 9/20 => miLoss 12.684
+2025-11-14 16:16:33,594 [ranpac_mist.py] => Task 8, Epoch 10/20 => miLoss 12.639
+2025-11-14 16:16:49,143 [ranpac_mist.py] => Task 8, Epoch 11/20 => miLoss 12.693
+2025-11-14 16:17:04,766 [ranpac_mist.py] => Task 8, Epoch 12/20 => miLoss 12.619
+2025-11-14 16:17:20,319 [ranpac_mist.py] => Task 8, Epoch 13/20 => miLoss 12.501
+2025-11-14 16:17:35,838 [ranpac_mist.py] => Task 8, Epoch 14/20 => miLoss 12.506
+2025-11-14 16:17:51,455 [ranpac_mist.py] => Task 8, Epoch 15/20 => miLoss 12.576
+2025-11-14 16:18:06,948 [ranpac_mist.py] => Task 8, Epoch 16/20 => miLoss 12.431
+2025-11-14 16:18:22,535 [ranpac_mist.py] => Task 8, Epoch 17/20 => miLoss 12.394
+2025-11-14 16:18:38,032 [ranpac_mist.py] => Task 8, Epoch 18/20 => miLoss 12.473
+2025-11-14 16:18:53,616 [ranpac_mist.py] => Task 8, Epoch 19/20 => miLoss 12.497
+2025-11-14 16:19:09,177 [ranpac_mist.py] => Task 8, Epoch 20/20 => miLoss 12.457
+2025-11-14 16:19:31,516 [ranpac_mist.py] => Optimal lambda: 1000000.0
+2025-11-14 16:19:32,585 [ranpac_mist.py] => 87,835,330 total parameters.
+2025-11-14 16:19:32,585 [ranpac_mist.py] => 87,835,330 training parameters.
+2025-11-14 16:19:40,570 [trainer.py] => No NME accuracy.
+2025-11-14 16:19:40,570 [trainer.py] => CNN: {'total': 81.65, '00-09': 72.56, '10-19': 78.76, '20-29': 77.67, '30-39': 84.94, '40-49': 77.48, '50-59': 82.57, '60-69': 80.54, '70-79': 77.29, '80-89': 82.9, '90-99': 72.88, '100-109': 85.92, '110-119': 87.23, '120-129': 77.86, '130-139': 82.89, '140-149': 88.28, '150-159': 84.81, '160-169': 80.43, '170-179': 88.71, 'old': 81.35, 'new': 84.73}
+2025-11-14 16:19:40,570 [trainer.py] => Att_curve: [92.89, 91.61, 89.11, 87.22, 84.6, 90.61, 85.24, 87.52, 84.73]
+2025-11-14 16:19:40,570 [trainer.py] => CNN top1 curve: [92.89, 90.23, 87.49, 86.51, 83.89, 82.83, 82.65, 81.91, 81.65]
+2025-11-14 16:19:40,570 [trainer.py] => CNN top5 curve: [98.4, 97.5, 96.68, 95.68, 94.57, 93.99, 93.28, 93.12, 92.68]
+
+2025-11-14 16:19:40,570 [trainer.py] => Average Accuracy (CNN): 85.5611111111111
+2025-11-14 16:19:40,570 [trainer.py] => Last Average Accuracy: 81.65
+2025-11-14 16:19:40,570 [trainer.py] => A_tt: 88.17000000000002
+2025-11-14 16:19:40,571 [trainer.py] => All params: 87835330
+2025-11-14 16:19:40,571 [trainer.py] => Trainable params: 87835330
+2025-11-14 16:19:40,574 [ranpac_mist.py] => Starting CIL Task 10
+2025-11-14 16:19:40,574 [ranpac_mist.py] => Learning on classes 180-199
+2025-11-14 16:19:57,857 [ranpac_mist.py] => Task 9, Epoch 1/20 => Loss 13.212
+2025-11-14 16:20:15,835 [ranpac_mist.py] => Task 9, Epoch 2/20 => miLoss 12.967
+2025-11-14 16:20:33,851 [ranpac_mist.py] => Task 9, Epoch 3/20 => miLoss 12.742
+2025-11-14 16:20:51,873 [ranpac_mist.py] => Task 9, Epoch 4/20 => miLoss 12.561
+2025-11-14 16:21:09,885 [ranpac_mist.py] => Task 9, Epoch 5/20 => miLoss 12.525
+2025-11-14 16:21:27,949 [ranpac_mist.py] => Task 9, Epoch 6/20 => miLoss 12.550
+2025-11-14 16:21:45,971 [ranpac_mist.py] => Task 9, Epoch 7/20 => miLoss 12.369
+2025-11-14 16:22:04,124 [ranpac_mist.py] => Task 9, Epoch 8/20 => miLoss 12.332
+2025-11-14 16:22:22,160 [ranpac_mist.py] => Task 9, Epoch 9/20 => miLoss 12.304
+2025-11-14 16:22:40,244 [ranpac_mist.py] => Task 9, Epoch 10/20 => miLoss 12.244
+2025-11-14 16:22:58,392 [ranpac_mist.py] => Task 9, Epoch 11/20 => miLoss 12.249
+2025-11-14 16:23:16,472 [ranpac_mist.py] => Task 9, Epoch 12/20 => miLoss 12.176
+2025-11-14 16:23:34,560 [ranpac_mist.py] => Task 9, Epoch 13/20 => miLoss 12.198
+2025-11-14 16:23:52,658 [ranpac_mist.py] => Task 9, Epoch 14/20 => miLoss 12.259
+2025-11-14 16:24:10,729 [ranpac_mist.py] => Task 9, Epoch 15/20 => miLoss 12.172
+2025-11-14 16:24:28,805 [ranpac_mist.py] => Task 9, Epoch 16/20 => miLoss 12.157
+2025-11-14 16:24:46,846 [ranpac_mist.py] => Task 9, Epoch 17/20 => miLoss 12.072
+2025-11-14 16:25:04,959 [ranpac_mist.py] => Task 9, Epoch 18/20 => miLoss 12.070
+2025-11-14 16:25:23,014 [ranpac_mist.py] => Task 9, Epoch 19/20 => miLoss 12.030
+2025-11-14 16:25:41,076 [ranpac_mist.py] => Task 9, Epoch 20/20 => miLoss 12.037
+2025-11-14 16:26:03,221 [ranpac_mist.py] => Optimal lambda: 1000000.0
+2025-11-14 16:26:04,495 [ranpac_mist.py] => 88,050,690 total parameters.
+2025-11-14 16:26:04,495 [ranpac_mist.py] => 88,050,690 training parameters.
+2025-11-14 16:26:13,329 [trainer.py] => No NME accuracy.
+2025-11-14 16:26:13,329 [trainer.py] => CNN: {'total': 81.0, '00-09': 72.24, '10-19': 78.76, '20-29': 77.0, '30-39': 82.23, '40-49': 76.82, '50-59': 78.95, '60-69': 78.86, '70-79': 77.66, '80-89': 80.65, '90-99': 73.45, '100-109': 86.27, '110-119': 85.37, '120-129': 80.07, '130-139': 83.22, '140-149': 87.19, '150-159': 83.98, '160-169': 76.09, '170-179': 87.5, '180-189': 87.34, '190-199': 80.81, 'old': 80.65, 'new': 84.28}
+2025-11-14 16:26:13,329 [trainer.py] => Att_curve: [92.89, 91.61, 89.11, 87.22, 84.6, 90.61, 85.24, 87.52, 84.73, 84.28]
+2025-11-14 16:26:13,329 [trainer.py] => CNN top1 curve: [92.89, 90.23, 87.49, 86.51, 83.89, 82.83, 82.65, 81.91, 81.65, 81.0]
+2025-11-14 16:26:13,329 [trainer.py] => CNN top5 curve: [98.4, 97.5, 96.68, 95.68, 94.57, 93.99, 93.28, 93.12, 92.68, 92.33]
+
+2025-11-14 16:26:13,329 [trainer.py] => Average Accuracy (CNN): 85.10499999999999
+2025-11-14 16:26:13,329 [trainer.py] => Last Average Accuracy: 81.0
+2025-11-14 16:26:13,329 [trainer.py] => A_tt: 87.781

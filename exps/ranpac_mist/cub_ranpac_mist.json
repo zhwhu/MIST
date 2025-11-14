@@ -1,0 +1,24 @@
+{
+    "prefix": "exp",
+    "dataset": "cub",
+    "shuffle": true,
+    "init_cls": 20,
+    "increment": 20,
+    "model_name": "ranpac_mist",
+    "convnet_type": "pretrained_vit_b16_224_in21k",
+    "weight_decay":0.0005,
+    "optimizer": "sgd",
+    "device": [
+        "0"
+    ],
+    "seed": [
+        1993
+    ],
+    "batch_size": 56,
+    "spr": "mist",
+    "select_rate": 0.1,
+    "drop_rate":0.9,
+    "mi_epochs":20,
+    "use_RP": "True",
+    "M": 10000
+}
