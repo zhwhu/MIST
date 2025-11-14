@@ -209,8 +209,8 @@ class iImageNetR(iData):
 
     def download_data(self):
         # assert 0, "You should specify the folder of your dataset"
-        train_dir = "/home/zh/zh/CLPM/SLCA-select/data/imagenet-r/train/"
-        test_dir = "/home/zh/zh/CLPM/SLCA-select/data/imagenet-r/val/"
+        train_dir = ".data/imagenet-r/train/"
+        test_dir = ".data/imagenet-r/val/"
 
         train_dset = datasets.ImageFolder(train_dir)
         test_dset = datasets.ImageFolder(test_dir)
